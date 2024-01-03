@@ -1,0 +1,103 @@
+/* ----- BASE STYLES - EXTRA SMALL DEVICES - MOBILE  ----- */
+/* CSS RULES  */
+
+#hero-section{
+   background-image: url(art-splash.jpg);
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: center;
+   width: 100%;
+   height: 1024px;
+   min-width: 375px;
+}
+
+#hero-navbar{
+   color: #FFF;
+   font-family: Inter;
+   font-size: 30.4px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   padding: 32px;
+}
+#hero-navbar img{
+   float: right;
+}
+#hero-info{
+   display: flex;
+   width: 314px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 32px;
+
+   padding-left: 31px;
+   padding-right: 31px;
+   padding-top: 285px;
+}
+#white-bar{
+   width: 90px;
+   height: 15px;
+   background-color: #FFF;
+}
+#hero-info-title{
+   color: #FFF;
+   font-family: Libre Caslon Display;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 400;
+}
+#hero-info-description{
+   color: #FFF;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+}
+#hero-info-button{
+   background-color: transparent;
+   width: 153px;
+   height: 42px;
+   flex-shrink: 0;
+   border-radius: 10px;
+   border: 2px solid #FFF;
+}
+#hero-info-button-text{
+   color: #FFF;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+
+
+
+
+/* ----- SMALL DEVICES - TABLETS ---- */
+/* CSS RULES*/
+@media screen and (min-width:744px){
+   #hero-info{
+      padding-left: 72px;
+      padding-right: 72px;
+      width: 600px;
+   }
+   #hero-info-title{font-size: 70px;}
+
+}
+
+
+/* ----- MEDIUM DEVICES - LAPTOPS ---- */
+   /* CSS RULES*/
+   @media screen and (min-width:1440px){
+      #hero-info{
+         width: 748px;
+      }
+      #hero-info-title{font-size: 80px;}
+   }    
+
+
+
+
+
+
