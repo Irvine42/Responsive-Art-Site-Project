@@ -155,7 +155,10 @@
    }
    #hero-info-title{font-size: 70px;}
 
-   .art-card{}
+   .art-card{
+      width: 187px;
+      height: 635px;
+   }
 
 }
 
